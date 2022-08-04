@@ -27,30 +27,30 @@ export default function EnterScreen({ setNome, nome }) {
           ></ion-icon>
           <h1>Bem vind@ , {Junto}</h1>
         </NavBar>
-
+        <a href={excellece} target="_blank" download>
         <ButtonBaixar>
-          <a href={excellece} target="_blank" download>
+         
             <h1>Oferta de fidelidade EXCELLENCE</h1>
-          </a>
+         
         </ButtonBaixar>
-
+        </a>
         <ButtonBaixar>
-          <a href={tablet} target="_blank">
+          <a href={tablet} target="_blank" download >
             <h1>Tablet</h1>
           </a>
         </ButtonBaixar>
         <ButtonBaixar>
-          <a href={tlf} target="_blank">
+          <a href={tlf} target="_blank" download>
             <h1>Telemóvel</h1>
           </a>
         </ButtonBaixar>
         <ButtonBaixar>
-          <a href={PP} target="_blank">
+          <a href={PP} target="_blank" download>
             <h1>Oferta de fidelidade PP+</h1>
           </a>
         </ButtonBaixar>
         <ButtonBaixar>
-          <a href={bb} target="_blank">
+          <a href={bb} target="_blank"download>
             <h1>BUY BACK</h1>
           </a>
         </ButtonBaixar>
@@ -63,7 +63,7 @@ const ButtonBaixar = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 300px;
   height: 47px;
   margin-top: 50px;
   border-radius: 8px;
@@ -76,15 +76,16 @@ const ButtonBaixar = styled.button`
   :hover {
     cursor: pointer;
   }
-  a {
-    text-decoration: none;
-  }
+
 `;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  a {
+    text-decoration: none;
+  }
 `;
 
 const NavBar = styled.div`

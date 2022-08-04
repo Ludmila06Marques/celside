@@ -42,6 +42,7 @@ const Entrar = styled.button`
   font-weight: bold;
 `;
 const InputNome = styled.input`
+margin-top: 10px;
   text-align: center;
   width: 300px;
   height: 52px;

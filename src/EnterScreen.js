@@ -34,26 +34,34 @@ export default function EnterScreen({ setNome, nome }) {
          
         </ButtonBaixar>
         </a>
+        <a href={tablet} target="_blank" download >
         <ButtonBaixar>
-          <a href={tablet} target="_blank" download >
+         
             <h1>Tablet</h1>
-          </a>
+         
         </ButtonBaixar>
+        </a>
+        <a href={tlf} target="_blank" download>
         <ButtonBaixar>
-          <a href={tlf} target="_blank" download>
+         
             <h1>Telemóvel</h1>
-          </a>
+         
         </ButtonBaixar>
+        </a>
+        <a href={PP} target="_blank" download>
         <ButtonBaixar>
-          <a href={PP} target="_blank" download>
+        
             <h1>Oferta de fidelidade PP+</h1>
-          </a>
+       
         </ButtonBaixar>
+        </a>
+        <a href={bb} target="_blank"download>
         <ButtonBaixar>
-          <a href={bb} target="_blank"download>
+        
             <h1>BUY BACK</h1>
-          </a>
+          
         </ButtonBaixar>
+        </a>
       </Container>
     </>
   );
